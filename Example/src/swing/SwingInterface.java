@@ -10,6 +10,11 @@ import javax.swing.JPanel;
 
 public class SwingInterface extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2482747612140472518L;
+
 	public static void main(String[] args) {
 		new SwingInterface();
 	}
