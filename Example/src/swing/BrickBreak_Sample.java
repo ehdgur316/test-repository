@@ -298,8 +298,8 @@ public class BrickBreak_Sample extends GraphicsProgram {
 				makeBall();
 			}
 		}
-		System.out.println("공의 속력 : "
-				+ Math.sqrt(Math.pow(dx, 2) + Math.pow(dy, 2)));
+		//System.out.println("공의 속력 : "
+				//+ Math.sqrt(Math.pow(dx, 2) + Math.pow(dy, 2)));
 		ball.move(dx, dy); // 공은 움직이는 함수
 	}
 
